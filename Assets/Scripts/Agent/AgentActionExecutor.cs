@@ -8,61 +8,130 @@ public class AgentActionExecutor : MonoBehaviour
     [SerializeField] private WorldState worldState;
     [SerializeField] private TaskManager taskManager;
 
-    public void ExecuteAction(AgentAction action)
+    [Header("Interaction")]
+    [SerializeField] private float interactionRange = 0.8f;
+
+    public bool ExecuteAction(AgentAction action, out string result)
     {
+        result = "";
+
         if (action == null)
-            return;
+        {
+            result = "Action was null.";
+            return false;
+        }
 
         switch (action.actionType)
         {
             case AgentActionType.MoveTo:
-                ExecuteMoveTo(action.targetId);
-                break;
+                return ExecuteMoveTo(action.targetId, out result);
 
             case AgentActionType.PickUp:
-                ExecutePickUp(action.targetId);
-                break;
+                return ExecutePickUp(action.targetId, out result);
 
             case AgentActionType.Drop:
-                ExecuteDrop(action.targetId);
-                break;
+                return ExecuteDrop(action.targetId, out result);
 
             case AgentActionType.FinishTask:
                 taskManager.CompleteTask();
-                break;
+                result = "Task marked complete.";
+                return true;
         }
+
+        result = "Unknown action.";
+        return false;
     }
 
-    private void ExecuteMoveTo(string targetId)
+    private bool ExecuteMoveTo(string targetId, out string result)
     {
         WorldObject target = worldState.GetObject(targetId);
 
         if (target == null)
-            return;
+        {
+            result = $"MoveTo failed: object '{targetId}' does not exist.";
+            return false;
+        }
 
         permissionManager.RequestMove(
             robotController,
             target.Position
         );
+
+        result = $"Movement toward '{targetId}' requested.";
+        return true;
     }
 
-    private void ExecutePickUp(string targetId)
+    private bool ExecutePickUp(string targetId, out string result)
     {
         WorldObject target = worldState.GetObject(targetId);
 
         if (target == null)
-            return;
+        {
+            result = $"PickUp failed: object '{targetId}' does not exist.";
+            return false;
+        }
 
-        robotInteraction.PickUp(target);
+        float distance = Vector2.Distance(
+            robotController.transform.position,
+            target.Position
+        );
+
+        if (distance > interactionRange)
+        {
+            result =
+                $"PickUp failed: '{targetId}' is too far away. " +
+                $"Move closer first.";
+
+            return false;
+        }
+
+        if (!robotInteraction.PickUp(target))
+        {
+            result = $"PickUp failed for '{targetId}'.";
+            return false;
+        }
+
+        result = $"Successfully picked up '{targetId}'.";
+        return true;
     }
 
-    private void ExecuteDrop(string targetId)
+    private bool ExecuteDrop(string targetId, out string result)
     {
-        WorldObject target = worldState.GetObject(targetId);
+        WorldObject destination = worldState.GetObject(targetId);
 
-        if (target == null)
-            return;
+        if (destination == null)
+        {
+            result = $"Drop failed: destination '{targetId}' does not exist.";
+            return false;
+        }
 
-        robotInteraction.Drop(target.Position);
+        if (!robotInteraction.IsCarryingObject)
+        {
+            result = "Drop failed: the robot is not carrying anything.";
+            return false;
+        }
+
+        float distance = Vector2.Distance(
+            robotController.transform.position,
+            destination.Position
+        );
+
+        if (distance > interactionRange)
+        {
+            result =
+                $"Drop failed: destination '{targetId}' is too far away. " +
+                $"Move closer first.";
+
+            return false;
+        }
+
+        if (!robotInteraction.Drop(destination.Position))
+        {
+            result = $"Drop failed at '{targetId}'.";
+            return false;
+        }
+
+        result = $"Successfully dropped the object at '{targetId}'.";
+        return true;
     }
 }
