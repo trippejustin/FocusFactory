@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: ef19498b5ee60de4d85095f1853c7f5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8175892415697872252
+    second: Reactor Logo_0
+  - first:
+      213: -3063459418110082225
+    second: Reactor Logo_1
+  - first:
+      213: 5819668021836681283
+    second: Reactor Logo_2
+  - first:
+      213: -2932449420826653014
+    second: Reactor Logo_3
+  - first:
+      213: 9139050611936474324
+    second: Reactor Logo_4
+  - first:
+      213: -5865967077693402388
+    second: Reactor Logo_5
+  - first:
+      213: -1966047319704950973
+    second: Reactor Logo_6
+  - first:
+      213: 422041429747596982
+    second: Reactor Logo_7
+  - first:
+      213: 5452779615230191378
+    second: Reactor Logo_8
+  - first:
+      213: 8061405118413281359
+    second: Reactor Logo_9
+  - first:
+      213: 3121207075543088490
+    second: Reactor Logo_10
+  - first:
+      213: 6091977533495818870
+    second: Reactor Logo_11
+  - first:
+      213: 8311810395050881429
+    second: Reactor Logo_12
+  - first:
+      213: -6109003214991290061
+    second: Reactor Logo_13
+  - first:
+      213: -3745888516154989475
+    second: Reactor Logo_14
+  - first:
+      213: 1206283711156243632
+    second: Reactor Logo_15
+  - first:
+      213: 3843042662863134901
+    second: Reactor Logo_16
+  - first:
+      213: 5964050596387616697
+    second: Reactor Logo_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reactor Logo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c756b7795da967170800000000000000
+      internalID: 8175892415697872252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 15
+        width: 1974
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4349bfd3e76c75d0800000000000000
+      internalID: -3063459418110082225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 578
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34096406b3d93c050800000000000000
+      internalID: 5819668021836681283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_3
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 578
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaec3ddd9c8dd47d0800000000000000
+      internalID: -2932449420826653014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 562
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d43acc5c1e64de70800000000000000
+      internalID: 9139050611936474324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 484
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2d2f5a506e79ea0800000000000000
+      internalID: -5865967077693402388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 248
+        width: 48
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347a069116237b4e0800000000000000
+      internalID: -1966047319704950973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_7
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 377
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be7a9cb1746bd500800000000000000
+      internalID: 422041429747596982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_8
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 377
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21769448b2a2cab40800000000000000
+      internalID: 5452779615230191378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_9
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f481a897e3ddfdf60800000000000000
+      internalID: 8061405118413281359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_10
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 110
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d7e206c41c05b20800000000000000
+      internalID: 3121207075543088490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_11
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67abdaf3a4d0b8450800000000000000
+      internalID: 6091977533495818870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_12
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 114
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5913865348b795370800000000000000
+      internalID: 8311810395050881429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_13
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33199be51f5783ba0800000000000000
+      internalID: -6109003214991290061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_14
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 101
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ed5abd3ee30cc0800000000000000
+      internalID: -3745888516154989475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_15
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 102
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bccec5e4a49db010800000000000000
+      internalID: 1206283711156243632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_16
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 99
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0e0a8c0fa355530800000000000000
+      internalID: 3843042662863134901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reactor Logo_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 81
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7f3242b6094c250800000000000000
+      internalID: 5964050596387616697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reactor Logo_0: 8175892415697872252
+      Reactor Logo_1: -3063459418110082225
+      Reactor Logo_10: 3121207075543088490
+      Reactor Logo_11: 6091977533495818870
+      Reactor Logo_12: 8311810395050881429
+      Reactor Logo_13: -6109003214991290061
+      Reactor Logo_14: -3745888516154989475
+      Reactor Logo_15: 1206283711156243632
+      Reactor Logo_16: 3843042662863134901
+      Reactor Logo_17: 5964050596387616697
+      Reactor Logo_2: 5819668021836681283
+      Reactor Logo_3: -2932449420826653014
+      Reactor Logo_4: 9139050611936474324
+      Reactor Logo_5: -5865967077693402388
+      Reactor Logo_6: -1966047319704950973
+      Reactor Logo_7: 422041429747596982
+      Reactor Logo_8: 5452779615230191378
+      Reactor Logo_9: 8061405118413281359
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

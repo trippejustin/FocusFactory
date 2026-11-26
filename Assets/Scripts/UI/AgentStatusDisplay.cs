@@ -22,6 +22,15 @@ public class AgentStatusDisplay : MonoBehaviour
         if (fadeCoroutine != null)
             StopCoroutine(fadeCoroutine);
 
+        message = message ?? string.Empty;
+        string[] words = message.Split(
+            (char[])null,
+            System.StringSplitOptions.RemoveEmptyEntries
+        );
+
+        if (words.Length > 10)
+            message = string.Join(" ", words, 0, 10);
+
         statusText.text = message;
         statusText.alpha = 1f;
 

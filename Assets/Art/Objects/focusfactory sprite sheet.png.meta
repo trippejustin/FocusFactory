@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 6e15de45daa46594aaa399b4f76d3205
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 448442602736103065
+    second: focusfactory sprite sheet_0
+  - first:
+      213: 8076971886193234844
+    second: focusfactory sprite sheet_1
+  - first:
+      213: -1418232872682909272
+    second: focusfactory sprite sheet_2
+  - first:
+      213: -4420585006394357008
+    second: focusfactory sprite sheet_3
+  - first:
+      213: 4343909824632208794
+    second: focusfactory sprite sheet_4
+  - first:
+      213: 3140193119789444468
+    second: focusfactory sprite sheet_5
+  - first:
+      213: -2019299536901914348
+    second: focusfactory sprite sheet_6
+  - first:
+      213: 8581193471243360012
+    second: focusfactory sprite sheet_7
+  - first:
+      213: -3333420441624767100
+    second: focusfactory sprite sheet_8
+  - first:
+      213: -1294400013686860405
+    second: focusfactory sprite sheet_9
+  - first:
+      213: -5749405698789693879
+    second: focusfactory sprite sheet_10
+  - first:
+      213: -6938950904963258623
+    second: focusfactory sprite sheet_11
+  - first:
+      213: 2296702476180766101
+    second: focusfactory sprite sheet_12
+  - first:
+      213: 833892982684645136
+    second: focusfactory sprite sheet_13
+  - first:
+      213: 5657585836397821977
+    second: focusfactory sprite sheet_14
+  - first:
+      213: -8705706169873394105
+    second: focusfactory sprite sheet_15
+  - first:
+      213: -5959067486747729434
+    second: focusfactory sprite sheet_16
+  - first:
+      213: 5828671846693409012
+    second: focusfactory sprite sheet_17
+  - first:
+      213: -2338040077037590123
+    second: focusfactory sprite sheet_18
+  - first:
+      213: -8271003702088869938
+    second: focusfactory sprite sheet_19
+  - first:
+      213: -1924860101761663043
+    second: focusfactory sprite sheet_20
+  - first:
+      213: 9016164700695760434
+    second: focusfactory sprite sheet_21
+  - first:
+      213: -612235398671494408
+    second: focusfactory sprite sheet_22
+  - first:
+      213: 595612816872786056
+    second: focusfactory sprite sheet_23
+  - first:
+      213: 7873391071718964817
+    second: focusfactory sprite sheet_24
+  - first:
+      213: -2000243226016544967
+    second: focusfactory sprite sheet_25
+  - first:
+      213: 1055026813761368931
+    second: focusfactory sprite sheet_26
+  - first:
+      213: -5628227917763280815
+    second: focusfactory sprite sheet_27
+  - first:
+      213: -5689619851720821516
+    second: focusfactory sprite sheet_28
+  - first:
+      213: -6640418760928337907
+    second: focusfactory sprite sheet_29
+  - first:
+      213: -5232050782084855185
+    second: focusfactory sprite sheet_30
+  - first:
+      213: 3389211598091023519
+    second: focusfactory sprite sheet_31
+  - first:
+      213: -7030974919311033167
+    second: focusfactory sprite sheet_32
+  - first:
+      213: -6431193451712169594
+    second: focusfactory sprite sheet_33
+  - first:
+      213: 6967988985657144375
+    second: focusfactory sprite sheet_34
+  - first:
+      213: -2779049339193184586
+    second: focusfactory sprite sheet_35
+  - first:
+      213: 2132674603419114097
+    second: focusfactory sprite sheet_36
+  - first:
+      213: -5096411564142530365
+    second: focusfactory sprite sheet_37
+  - first:
+      213: -6284529837690211357
+    second: focusfactory sprite sheet_38
+  - first:
+      213: 1537353965902837126
+    second: focusfactory sprite sheet_39
+  - first:
+      213: 2179433820655733154
+    second: focusfactory sprite sheet_40
+  - first:
+      213: -4296563300216811925
+    second: focusfactory sprite sheet_41
+  - first:
+      213: -7133435758207245332
+    second: focusfactory sprite sheet_42
+  - first:
+      213: -7489621623490330985
+    second: focusfactory sprite sheet_43
+  - first:
+      213: 2651122011534627496
+    second: focusfactory sprite sheet_44
+  - first:
+      213: -2937437101908252322
+    second: focusfactory sprite sheet_45
+  - first:
+      213: 5087827970471968228
+    second: focusfactory sprite sheet_46
+  - first:
+      213: -2629812485194621391
+    second: focusfactory sprite sheet_47
+  - first:
+      213: 5827096569098952618
+    second: focusfactory sprite sheet_48
+  - first:
+      213: 7844684830413234928
+    second: focusfactory sprite sheet_49
+  - first:
+      213: 5702345429860270904
+    second: focusfactory sprite sheet_50
+  - first:
+      213: 2690290157014698228
+    second: focusfactory sprite sheet_51
+  - first:
+      213: -4551910128405955927
+    second: focusfactory sprite sheet_52
+  - first:
+      213: 2917128332114937559
+    second: focusfactory sprite sheet_53
+  - first:
+      213: 5754781244726955226
+    second: focusfactory sprite sheet_54
+  - first:
+      213: -3900218947233140672
+    second: focusfactory sprite sheet_55
+  - first:
+      213: -5518524587143462331
+    second: focusfactory sprite sheet_56
+  - first:
+      213: 6418161189715385321
+    second: focusfactory sprite sheet_57
+  - first:
+      213: -8168200001058029358
+    second: focusfactory sprite sheet_58
+  - first:
+      213: -4997723133304055518
+    second: focusfactory sprite sheet_59
+  - first:
+      213: -8438533380663124706
+    second: focusfactory sprite sheet_60
+  - first:
+      213: 6092055663883214023
+    second: focusfactory sprite sheet_61
+  - first:
+      213: -3465775509859164993
+    second: focusfactory sprite sheet_62
+  - first:
+      213: 5981183650352305093
+    second: focusfactory sprite sheet_63
+  - first:
+      213: -5378942224908048930
+    second: focusfactory sprite sheet_64
+  - first:
+      213: 7417085658587083432
+    second: focusfactory sprite sheet_65
+  - first:
+      213: 5648027987476150799
+    second: focusfactory sprite sheet_66
+  - first:
+      213: 3724544279757864212
+    second: focusfactory sprite sheet_67
+  - first:
+      213: 8522576577389522576
+    second: focusfactory sprite sheet_68
+  - first:
+      213: -1859624913231347335
+    second: focusfactory sprite sheet_69
+  - first:
+      213: -8839091683464715377
+    second: focusfactory sprite sheet_70
+  - first:
+      213: -3973274666202800630
+    second: focusfactory sprite sheet_71
+  - first:
+      213: 3686560584323032219
+    second: focusfactory sprite sheet_72
+  - first:
+      213: -3197297749693634922
+    second: focusfactory sprite sheet_73
+  - first:
+      213: 3442158707448680777
+    second: focusfactory sprite sheet_74
+  - first:
+      213: -4696495844787201818
+    second: focusfactory sprite sheet_75
+  - first:
+      213: 8919501169303054049
+    second: focusfactory sprite sheet_76
+  - first:
+      213: -6719964031581382133
+    second: focusfactory sprite sheet_77
+  - first:
+      213: 6001107843358705402
+    second: focusfactory sprite sheet_78
+  - first:
+      213: 3072715409565206915
+    second: focusfactory sprite sheet_79
+  - first:
+      213: 694040490458593129
+    second: focusfactory sprite sheet_80
+  - first:
+      213: 7722121174388509743
+    second: focusfactory sprite sheet_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 576
+        width: 301
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eac36db20393600800000000000000
+      internalID: 448442602736103065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Machine
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 571
+        width: 408
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c935d59032b271070800000000000000
+      internalID: 8076971886193234844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 79
+        width: 386
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a114f667bc615ce0800000000000000
+      internalID: -1418232872682909272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battery
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 597
+        width: 284
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da3fa90b435b5544957ac161b417895
+      internalID: -118596587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 91
+        width: 356
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34747ea573945ad4089e8dfaa983c1e3
+      internalID: -828602294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolBox
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 92
+        width: 361
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed4807b14d994b46b754c952ee0e206
+      internalID: -642748711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2650890561fcec44d80d2187d244a763
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Battery: -118596587
+      Floor: -828602294
+      Machine: 8076971886193234844
+      Robot: 448442602736103065
+      ToolBox: -642748711
+      Wall: -1418232872682909272
+      focusfactory sprite sheet_10: -5749405698789693879
+      focusfactory sprite sheet_11: -6938950904963258623
+      focusfactory sprite sheet_12: 2296702476180766101
+      focusfactory sprite sheet_13: 833892982684645136
+      focusfactory sprite sheet_14: 5657585836397821977
+      focusfactory sprite sheet_15: -8705706169873394105
+      focusfactory sprite sheet_16: -5959067486747729434
+      focusfactory sprite sheet_17: 5828671846693409012
+      focusfactory sprite sheet_18: -2338040077037590123
+      focusfactory sprite sheet_19: -8271003702088869938
+      focusfactory sprite sheet_20: -1924860101761663043
+      focusfactory sprite sheet_21: 9016164700695760434
+      focusfactory sprite sheet_22: -612235398671494408
+      focusfactory sprite sheet_23: 595612816872786056
+      focusfactory sprite sheet_24: 7873391071718964817
+      focusfactory sprite sheet_25: -2000243226016544967
+      focusfactory sprite sheet_26: 1055026813761368931
+      focusfactory sprite sheet_27: -5628227917763280815
+      focusfactory sprite sheet_28: -5689619851720821516
+      focusfactory sprite sheet_29: -6640418760928337907
+      focusfactory sprite sheet_3: -4420585006394357008
+      focusfactory sprite sheet_30: -5232050782084855185
+      focusfactory sprite sheet_31: 3389211598091023519
+      focusfactory sprite sheet_32: -7030974919311033167
+      focusfactory sprite sheet_33: -6431193451712169594
+      focusfactory sprite sheet_34: 6967988985657144375
+      focusfactory sprite sheet_35: -2779049339193184586
+      focusfactory sprite sheet_36: 2132674603419114097
+      focusfactory sprite sheet_37: -5096411564142530365
+      focusfactory sprite sheet_38: -6284529837690211357
+      focusfactory sprite sheet_39: 1537353965902837126
+      focusfactory sprite sheet_4: 4343909824632208794
+      focusfactory sprite sheet_40: 2179433820655733154
+      focusfactory sprite sheet_41: -4296563300216811925
+      focusfactory sprite sheet_42: -7133435758207245332
+      focusfactory sprite sheet_43: -7489621623490330985
+      focusfactory sprite sheet_44: 2651122011534627496
+      focusfactory sprite sheet_45: -2937437101908252322
+      focusfactory sprite sheet_46: 5087827970471968228
+      focusfactory sprite sheet_47: -2629812485194621391
+      focusfactory sprite sheet_48: 5827096569098952618
+      focusfactory sprite sheet_49: 7844684830413234928
+      focusfactory sprite sheet_5: 3140193119789444468
+      focusfactory sprite sheet_50: 5702345429860270904
+      focusfactory sprite sheet_51: 2690290157014698228
+      focusfactory sprite sheet_52: -4551910128405955927
+      focusfactory sprite sheet_53: 2917128332114937559
+      focusfactory sprite sheet_54: 5754781244726955226
+      focusfactory sprite sheet_55: -3900218947233140672
+      focusfactory sprite sheet_56: -5518524587143462331
+      focusfactory sprite sheet_57: 6418161189715385321
+      focusfactory sprite sheet_58: -8168200001058029358
+      focusfactory sprite sheet_59: -4997723133304055518
+      focusfactory sprite sheet_6: -2019299536901914348
+      focusfactory sprite sheet_60: -8438533380663124706
+      focusfactory sprite sheet_61: 6092055663883214023
+      focusfactory sprite sheet_62: -3465775509859164993
+      focusfactory sprite sheet_63: 5981183650352305093
+      focusfactory sprite sheet_64: -5378942224908048930
+      focusfactory sprite sheet_65: 7417085658587083432
+      focusfactory sprite sheet_66: 5648027987476150799
+      focusfactory sprite sheet_67: 3724544279757864212
+      focusfactory sprite sheet_68: 8522576577389522576
+      focusfactory sprite sheet_69: -1859624913231347335
+      focusfactory sprite sheet_7: 8581193471243360012
+      focusfactory sprite sheet_70: -8839091683464715377
+      focusfactory sprite sheet_71: -3973274666202800630
+      focusfactory sprite sheet_72: 3686560584323032219
+      focusfactory sprite sheet_73: -3197297749693634922
+      focusfactory sprite sheet_74: 3442158707448680777
+      focusfactory sprite sheet_75: -4696495844787201818
+      focusfactory sprite sheet_76: 8919501169303054049
+      focusfactory sprite sheet_77: -6719964031581382133
+      focusfactory sprite sheet_78: 6001107843358705402
+      focusfactory sprite sheet_79: 3072715409565206915
+      focusfactory sprite sheet_8: -3333420441624767100
+      focusfactory sprite sheet_80: 694040490458593129
+      focusfactory sprite sheet_81: 7722121174388509743
+      focusfactory sprite sheet_9: -1294400013686860405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

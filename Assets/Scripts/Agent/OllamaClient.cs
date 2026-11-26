@@ -6,8 +6,21 @@ using UnityEngine.Networking;
 public class OllamaClient : MonoBehaviour
 {
     [Header("Ollama")]
-    [SerializeField] private string endpoint = "http://localhost:11434/api/chat";
-    [SerializeField] private string model = "qwen3:8b";
+    [SerializeField] private string endpoint =
+        "http://localhost:11434/api/chat";
+
+    [SerializeField] private string model =
+        "gpt-oss:20b";
+
+    [Header("Performance")]
+    [SerializeField] private int maxResponseTokens = 256;
+    [SerializeField] private string keepAlive = "30m";
+
+    [Header("Retries")]
+    [SerializeField] private int maxUnreadableRetries = 2;
+
+    public event Action OnRequestStarted;
+    public event Action OnRequestFinished;
 
     public string Model
     {
@@ -15,73 +28,247 @@ public class OllamaClient : MonoBehaviour
         set => model = value;
     }
 
+    public bool HasActiveRequest =>
+        activeCoroutine != null;
+
+    private Coroutine activeCoroutine;
+    private UnityWebRequest activeRequest;
+
     public void SendPrompt(
         string prompt,
         Action<string> onSuccess,
         Action<string> onError)
     {
-        StartCoroutine(SendPromptCoroutine(prompt, onSuccess, onError));
+        OnRequestStarted?.Invoke();
+
+        activeCoroutine =
+            StartCoroutine(
+                SendPromptCoroutine(
+                    prompt,
+                    onSuccess,
+                    onError,
+                    0
+                )
+            );
+    }
+
+    public void CancelCurrentRequest()
+    {
+        if (activeCoroutine == null &&
+            activeRequest == null)
+        {
+            return;
+        }
+
+        if (activeRequest != null)
+        {
+            activeRequest.Abort();
+            activeRequest.Dispose();
+            activeRequest = null;
+        }
+
+        if (activeCoroutine != null)
+        {
+            StopCoroutine(activeCoroutine);
+            activeCoroutine = null;
+        }
+
+        Debug.Log(
+            "OllamaClient: Current request cancelled."
+        );
+
+        OnRequestFinished?.Invoke();
     }
 
     private IEnumerator SendPromptCoroutine(
         string prompt,
         Action<string> onSuccess,
-        Action<string> onError)
+        Action<string> onError,
+        int unreadableRetryCount)
     {
-        OllamaRequest requestBody = new OllamaRequest
+        string requestPrompt = prompt;
+
+        if (unreadableRetryCount > 0)
         {
-            model = model,
-            stream = false,
-            format = "json",
-            messages = new[]
+            requestPrompt +=
+                "\n\nIMPORTANT: Your previous response could not be read. " +
+                "Try again. Return exactly one valid JSON object and nothing else.";
+        }
+
+        OllamaRequest requestBody =
+            new OllamaRequest
             {
-                new OllamaMessage
+                model = model,
+                stream = false,
+                format = "json",
+                think = "low",
+                keep_alive = keepAlive,
+
+                options = new OllamaOptions
                 {
-                    role = "user",
-                    content = prompt
+                    num_predict = maxResponseTokens
+                },
+
+                messages = new[]
+                {
+                    new OllamaMessage
+                    {
+                        role = "user",
+                        content = requestPrompt
+                    }
                 }
-            }
-        };
+            };
 
-        string json = JsonUtility.ToJson(requestBody);
+        string json =
+            JsonUtility.ToJson(
+                requestBody
+            );
 
-        using UnityWebRequest request =
-            new UnityWebRequest(endpoint, UnityWebRequest.kHttpVerbPOST);
+        activeRequest =
+            new UnityWebRequest(
+                endpoint,
+                UnityWebRequest.kHttpVerbPOST
+            );
 
-        byte[] body = System.Text.Encoding.UTF8.GetBytes(json);
+        byte[] body =
+            System.Text.Encoding.UTF8.GetBytes(
+                json
+            );
 
-        request.uploadHandler = new UploadHandlerRaw(body);
-        request.downloadHandler = new DownloadHandlerBuffer();
-        request.SetRequestHeader("Content-Type", "application/json");
+        activeRequest.uploadHandler =
+            new UploadHandlerRaw(body);
 
-        yield return request.SendWebRequest();
+        activeRequest.downloadHandler =
+            new DownloadHandlerBuffer();
 
-        if (request.result != UnityWebRequest.Result.Success)
+        activeRequest.SetRequestHeader(
+            "Content-Type",
+            "application/json"
+        );
+
+        yield return activeRequest.SendWebRequest();
+
+        UnityWebRequest completedRequest =
+            activeRequest;
+
+        activeRequest = null;
+
+        if (completedRequest.result !=
+            UnityWebRequest.Result.Success)
         {
             string error =
-                $"Ollama request failed: {request.error}\n{request.downloadHandler.text}";
+                $"Ollama request failed: " +
+                $"{completedRequest.error}\n" +
+                $"{completedRequest.downloadHandler.text}";
 
             Debug.LogError(error);
+
+            completedRequest.Dispose();
+
+            activeCoroutine = null;
+
+            OnRequestFinished?.Invoke();
+
             onError?.Invoke(error);
+
             yield break;
         }
 
-        OllamaResponse response =
-            JsonUtility.FromJson<OllamaResponse>(request.downloadHandler.text);
+        OllamaResponse response = null;
+
+        try
+        {
+            response =
+                JsonUtility.FromJson<OllamaResponse>(
+                    completedRequest.downloadHandler.text
+                );
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning(
+                $"Ollama response parsing failed: " +
+                $"{exception.Message}"
+            );
+        }
+
+        if (response != null)
+        {
+            Debug.Log(
+                $"Ollama timing | " +
+                $"Total: {NanosecondsToSeconds(response.total_duration):F2}s | " +
+                $"Load: {NanosecondsToSeconds(response.load_duration):F2}s | " +
+                $"Prompt: {NanosecondsToSeconds(response.prompt_eval_duration):F2}s | " +
+                $"Generation: {NanosecondsToSeconds(response.eval_duration):F2}s | " +
+                $"Tokens: {response.eval_count} | " +
+                $"Stop: {response.done_reason}"
+            );
+        }
 
         if (response == null ||
             response.message == null ||
-            string.IsNullOrWhiteSpace(response.message.content))
+            string.IsNullOrWhiteSpace(
+                response.message.content))
         {
+            string rawResponse =
+                completedRequest.downloadHandler.text;
+
+            completedRequest.Dispose();
+
+            if (unreadableRetryCount <
+                maxUnreadableRetries)
+            {
+                int nextRetry =
+                    unreadableRetryCount + 1;
+
+                Debug.LogWarning(
+                    $"Ollama returned an unreadable response. " +
+                    $"Retrying {nextRetry}/{maxUnreadableRetries}."
+                );
+
+                yield return SendPromptCoroutine(
+                    prompt,
+                    onSuccess,
+                    onError,
+                    nextRetry
+                );
+
+                yield break;
+            }
+
             string error =
-                $"Ollama returned an unreadable response:\n{request.downloadHandler.text}";
+                "Ollama repeatedly returned unreadable responses:\n" +
+                rawResponse;
 
             Debug.LogError(error);
+
+            activeCoroutine = null;
+
+            OnRequestFinished?.Invoke();
+
             onError?.Invoke(error);
+
             yield break;
         }
 
-        onSuccess?.Invoke(response.message.content);
+        string responseContent =
+            response.message.content;
+
+        completedRequest.Dispose();
+
+        activeCoroutine = null;
+
+        OnRequestFinished?.Invoke();
+
+        onSuccess?.Invoke(
+            responseContent
+        );
+    }
+
+    private double NanosecondsToSeconds(
+        long nanoseconds)
+    {
+        return nanoseconds /
+               1_000_000_000.0;
     }
 
     [Serializable]
@@ -91,6 +278,15 @@ public class OllamaClient : MonoBehaviour
         public OllamaMessage[] messages;
         public bool stream;
         public string format;
+        public string think;
+        public string keep_alive;
+        public OllamaOptions options;
+    }
+
+    [Serializable]
+    private class OllamaOptions
+    {
+        public int num_predict;
     }
 
     [Serializable]
@@ -98,12 +294,24 @@ public class OllamaClient : MonoBehaviour
     {
         public string role;
         public string content;
+        public string thinking;
     }
 
     [Serializable]
     private class OllamaResponse
     {
         public OllamaMessage message;
+
         public bool done;
+        public string done_reason;
+
+        public long total_duration;
+        public long load_duration;
+        public long prompt_eval_duration;
+        public long eval_duration;
+
+        public int prompt_eval_count;
+        public int prompt_eval_cached_count;
+        public int eval_count;
     }
 }

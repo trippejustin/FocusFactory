@@ -3,6 +3,7 @@ public enum AgentActionType
     MoveTo,
     PickUp,
     Drop,
+    Decontaminate,
     FinishTask
 }
 

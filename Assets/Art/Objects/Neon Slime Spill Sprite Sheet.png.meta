@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: de3b2a9e4d69d654ab080b45fe2e01e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7624475456784673193
+    second: Neon Slime Spill Sprite Sheet_0
+  - first:
+      213: -3971247376866399534
+    second: Neon Slime Spill Sprite Sheet_1
+  - first:
+      213: -4675156092042273953
+    second: Neon Slime Spill Sprite Sheet_2
+  - first:
+      213: -3427008202470516419
+    second: Neon Slime Spill Sprite Sheet_3
+  - first:
+      213: 1844368419809873860
+    second: Neon Slime Spill Sprite Sheet_4
+  - first:
+      213: 1592507777095023618
+    second: Neon Slime Spill Sprite Sheet_5
+  - first:
+      213: 4787059835564596295
+    second: Neon Slime Spill Sprite Sheet_6
+  - first:
+      213: -5197484502970975887
+    second: Neon Slime Spill Sprite Sheet_7
+  - first:
+      213: 9047947498838950817
+    second: Neon Slime Spill Sprite Sheet_8
+  - first:
+      213: 2193752106999795773
+    second: Neon Slime Spill Sprite Sheet_9
+  - first:
+      213: -4454429145356074113
+    second: Neon Slime Spill Sprite Sheet_10
+  - first:
+      213: -7305723221034079600
+    second: Neon Slime Spill Sprite Sheet_11
+  - first:
+      213: 8923755203802790078
+    second: Neon Slime Spill Sprite Sheet_12
+  - first:
+      213: -3807476918184925896
+    second: Neon Slime Spill Sprite Sheet_13
+  - first:
+      213: -4469184820820531778
+    second: Neon Slime Spill Sprite Sheet_14
+  - first:
+      213: 2676218153013485255
+    second: Neon Slime Spill Sprite Sheet_15
+  - first:
+      213: 6191715561651301635
+    second: Neon Slime Spill Sprite Sheet_16
+  - first:
+      213: 3019993660764683685
+    second: Neon Slime Spill Sprite Sheet_17
+  - first:
+      213: 6807553939297008550
+    second: Neon Slime Spill Sprite Sheet_18
+  - first:
+      213: -417055138994011447
+    second: Neon Slime Spill Sprite Sheet_19
+  - first:
+      213: -7693174107467366918
+    second: Neon Slime Spill Sprite Sheet_20
+  - first:
+      213: -8743751301830994248
+    second: Neon Slime Spill Sprite Sheet_21
+  - first:
+      213: 4651661876025361034
+    second: Neon Slime Spill Sprite Sheet_22
+  - first:
+      213: 7133441097200971873
+    second: Neon Slime Spill Sprite Sheet_23
+  - first:
+      213: 5694471840201259384
+    second: Neon Slime Spill Sprite Sheet_24
+  - first:
+      213: 136958449561258533
+    second: Neon Slime Spill Sprite Sheet_25
+  - first:
+      213: 8587399430230897567
+    second: Neon Slime Spill Sprite Sheet_26
+  - first:
+      213: 7468796771383773991
+    second: Neon Slime Spill Sprite Sheet_27
+  - first:
+      213: 8593856020740254981
+    second: Neon Slime Spill Sprite Sheet_28
+  - first:
+      213: 4877590545187280472
+    second: Neon Slime Spill Sprite Sheet_29
+  - first:
+      213: 2151959604284921155
+    second: Neon Slime Spill Sprite Sheet_30
+  - first:
+      213: -5920250259836204199
+    second: Neon Slime Spill Sprite Sheet_31
+  - first:
+      213: 604249279365780182
+    second: Neon Slime Spill Sprite Sheet_32
+  - first:
+      213: -899672397388060535
+    second: Neon Slime Spill Sprite Sheet_33
+  - first:
+      213: 7978964340551006014
+    second: Neon Slime Spill Sprite Sheet_34
+  - first:
+      213: -7674257859256208598
+    second: Neon Slime Spill Sprite Sheet_35
+  - first:
+      213: -3002174421549732892
+    second: Neon Slime Spill Sprite Sheet_36
+  - first:
+      213: -7736635653923637817
+    second: Neon Slime Spill Sprite Sheet_37
+  - first:
+      213: 4389629409273174517
+    second: Neon Slime Spill Sprite Sheet_38
+  - first:
+      213: -7275605697534226565
+    second: Neon Slime Spill Sprite Sheet_39
+  - first:
+      213: 492773031684304214
+    second: Neon Slime Spill Sprite Sheet_40
+  - first:
+      213: 6582908417477898186
+    second: Neon Slime Spill Sprite Sheet_41
+  - first:
+      213: -1707117779933622526
+    second: Neon Slime Spill Sprite Sheet_42
+  - first:
+      213: -6136912000433643248
+    second: Neon Slime Spill Sprite Sheet_43
+  - first:
+      213: -6038869650119877171
+    second: Neon Slime Spill Sprite Sheet_44
+  - first:
+      213: 1278027696859191906
+    second: Neon Slime Spill Sprite Sheet_45
+  - first:
+      213: 3263463357830274200
+    second: Neon Slime Spill Sprite Sheet_46
+  - first:
+      213: -244779274577336585
+    second: Neon Slime Spill Sprite Sheet_47
+  - first:
+      213: -2432784988993459293
+    second: Neon Slime Spill Sprite Sheet_48
+  - first:
+      213: -3399783698750550319
+    second: Neon Slime Spill Sprite Sheet_49
+  - first:
+      213: 8422542328388995728
+    second: Neon Slime Spill Sprite Sheet_50
+  - first:
+      213: 3171993012662874428
+    second: Neon Slime Spill Sprite Sheet_51
+  - first:
+      213: -6676872120037881695
+    second: Neon Slime Spill Sprite Sheet_52
+  - first:
+      213: 1155495123029172278
+    second: Neon Slime Spill Sprite Sheet_53
+  - first:
+      213: -4808884045066676245
+    second: Neon Slime Spill Sprite Sheet_54
+  - first:
+      213: -6731126838229256519
+    second: Neon Slime Spill Sprite Sheet_55
+  - first:
+      213: 3081038161539882424
+    second: Neon Slime Spill Sprite Sheet_56
+  - first:
+      213: 3949552929697505697
+    second: Neon Slime Spill Sprite Sheet_57
+  - first:
+      213: -6162799400142928678
+    second: Neon Slime Spill Sprite Sheet_58
+  - first:
+      213: -7183861492197095672
+    second: Neon Slime Spill Sprite Sheet_59
+  - first:
+      213: 6899654742048307322
+    second: Neon Slime Spill Sprite Sheet_60
+  - first:
+      213: -9121722707691472859
+    second: Neon Slime Spill Sprite Sheet_61
+  - first:
+      213: 700655771170736579
+    second: Neon Slime Spill Sprite Sheet_62
+  - first:
+      213: 2238294817049639115
+    second: Neon Slime Spill Sprite Sheet_63
+  - first:
+      213: 7187426928445542371
+    second: Neon Slime Spill Sprite Sheet_64
+  - first:
+      213: 7640872692006970585
+    second: Neon Slime Spill Sprite Sheet_65
+  - first:
+      213: 5698322055545260289
+    second: Neon Slime Spill Sprite Sheet_66
+  - first:
+      213: 8097722836579295789
+    second: Neon Slime Spill Sprite Sheet_67
+  - first:
+      213: 5106488695838835663
+    second: Neon Slime Spill Sprite Sheet_68
+  - first:
+      213: 1583605403431664999
+    second: Neon Slime Spill Sprite Sheet_69
+  - first:
+      213: 320796509229180448
+    second: Neon Slime Spill Sprite Sheet_70
+  - first:
+      213: 8237492808841807536
+    second: Neon Slime Spill Sprite Sheet_71
+  - first:
+      213: 7727664045301928997
+    second: Neon Slime Spill Sprite Sheet_72
+  - first:
+      213: 3248602417836914421
+    second: Neon Slime Spill Sprite Sheet_73
+  - first:
+      213: 8055396876911344509
+    second: Neon Slime Spill Sprite Sheet_74
+  - first:
+      213: 7796619520680929517
+    second: Neon Slime Spill Sprite Sheet_75
+  - first:
+      213: 5512046797811526930
+    second: Neon Slime Spill Sprite Sheet_76
+  - first:
+      213: 4929386068144489754
+    second: Neon Slime Spill Sprite Sheet_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime 4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 62
+        width: 551
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7565aafd7fb603690800000000000000
+      internalID: -7624475456784673193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime 1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 464
+        width: 569
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d6cece7ff555458102453eeaec676
+      internalID: 285341299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime 2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 431
+        width: 499
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1352436461a2e458665b1208d574b1
+      internalID: -1198598843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime 3
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 451
+        width: 364
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16492eb9faa62dd42818ed9988c06913
+      internalID: 1495846384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 892f6ac59f48a6e468660f759133b0c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Neon Slime Spill Sprite Sheet_1: -3971247376866399534
+      Neon Slime Spill Sprite Sheet_10: -4454429145356074113
+      Neon Slime Spill Sprite Sheet_11: -7305723221034079600
+      Neon Slime Spill Sprite Sheet_12: 8923755203802790078
+      Neon Slime Spill Sprite Sheet_13: -3807476918184925896
+      Neon Slime Spill Sprite Sheet_14: -4469184820820531778
+      Neon Slime Spill Sprite Sheet_15: 2676218153013485255
+      Neon Slime Spill Sprite Sheet_16: 6191715561651301635
+      Neon Slime Spill Sprite Sheet_17: 3019993660764683685
+      Neon Slime Spill Sprite Sheet_18: 6807553939297008550
+      Neon Slime Spill Sprite Sheet_19: -417055138994011447
+      Neon Slime Spill Sprite Sheet_2: -4675156092042273953
+      Neon Slime Spill Sprite Sheet_20: -7693174107467366918
+      Neon Slime Spill Sprite Sheet_21: -8743751301830994248
+      Neon Slime Spill Sprite Sheet_22: 4651661876025361034
+      Neon Slime Spill Sprite Sheet_23: 7133441097200971873
+      Neon Slime Spill Sprite Sheet_24: 5694471840201259384
+      Neon Slime Spill Sprite Sheet_25: 136958449561258533
+      Neon Slime Spill Sprite Sheet_26: 8587399430230897567
+      Neon Slime Spill Sprite Sheet_27: 7468796771383773991
+      Neon Slime Spill Sprite Sheet_28: 8593856020740254981
+      Neon Slime Spill Sprite Sheet_29: 4877590545187280472
+      Neon Slime Spill Sprite Sheet_3: -3427008202470516419
+      Neon Slime Spill Sprite Sheet_30: 2151959604284921155
+      Neon Slime Spill Sprite Sheet_31: -5920250259836204199
+      Neon Slime Spill Sprite Sheet_32: 604249279365780182
+      Neon Slime Spill Sprite Sheet_33: -899672397388060535
+      Neon Slime Spill Sprite Sheet_34: 7978964340551006014
+      Neon Slime Spill Sprite Sheet_35: -7674257859256208598
+      Neon Slime Spill Sprite Sheet_36: -3002174421549732892
+      Neon Slime Spill Sprite Sheet_37: -7736635653923637817
+      Neon Slime Spill Sprite Sheet_38: 4389629409273174517
+      Neon Slime Spill Sprite Sheet_39: -7275605697534226565
+      Neon Slime Spill Sprite Sheet_4: 1844368419809873860
+      Neon Slime Spill Sprite Sheet_40: 492773031684304214
+      Neon Slime Spill Sprite Sheet_41: 6582908417477898186
+      Neon Slime Spill Sprite Sheet_42: -1707117779933622526
+      Neon Slime Spill Sprite Sheet_43: -6136912000433643248
+      Neon Slime Spill Sprite Sheet_44: -6038869650119877171
+      Neon Slime Spill Sprite Sheet_45: 1278027696859191906
+      Neon Slime Spill Sprite Sheet_46: 3263463357830274200
+      Neon Slime Spill Sprite Sheet_47: -244779274577336585
+      Neon Slime Spill Sprite Sheet_48: -2432784988993459293
+      Neon Slime Spill Sprite Sheet_49: -3399783698750550319
+      Neon Slime Spill Sprite Sheet_5: 1592507777095023618
+      Neon Slime Spill Sprite Sheet_50: 8422542328388995728
+      Neon Slime Spill Sprite Sheet_51: 3171993012662874428
+      Neon Slime Spill Sprite Sheet_52: -6676872120037881695
+      Neon Slime Spill Sprite Sheet_53: 1155495123029172278
+      Neon Slime Spill Sprite Sheet_54: -4808884045066676245
+      Neon Slime Spill Sprite Sheet_55: -6731126838229256519
+      Neon Slime Spill Sprite Sheet_56: 3081038161539882424
+      Neon Slime Spill Sprite Sheet_57: 3949552929697505697
+      Neon Slime Spill Sprite Sheet_58: -6162799400142928678
+      Neon Slime Spill Sprite Sheet_59: -7183861492197095672
+      Neon Slime Spill Sprite Sheet_6: 4787059835564596295
+      Neon Slime Spill Sprite Sheet_60: 6899654742048307322
+      Neon Slime Spill Sprite Sheet_61: -9121722707691472859
+      Neon Slime Spill Sprite Sheet_62: 700655771170736579
+      Neon Slime Spill Sprite Sheet_63: 2238294817049639115
+      Neon Slime Spill Sprite Sheet_64: 7187426928445542371
+      Neon Slime Spill Sprite Sheet_65: 7640872692006970585
+      Neon Slime Spill Sprite Sheet_66: 5698322055545260289
+      Neon Slime Spill Sprite Sheet_67: 8097722836579295789
+      Neon Slime Spill Sprite Sheet_68: 5106488695838835663
+      Neon Slime Spill Sprite Sheet_69: 1583605403431664999
+      Neon Slime Spill Sprite Sheet_7: -5197484502970975887
+      Neon Slime Spill Sprite Sheet_70: 320796509229180448
+      Neon Slime Spill Sprite Sheet_71: 8237492808841807536
+      Neon Slime Spill Sprite Sheet_72: 7727664045301928997
+      Neon Slime Spill Sprite Sheet_73: 3248602417836914421
+      Neon Slime Spill Sprite Sheet_74: 8055396876911344509
+      Neon Slime Spill Sprite Sheet_75: 7796619520680929517
+      Neon Slime Spill Sprite Sheet_76: 5512046797811526930
+      Neon Slime Spill Sprite Sheet_77: 4929386068144489754
+      Neon Slime Spill Sprite Sheet_8: 9047947498838950817
+      Neon Slime Spill Sprite Sheet_9: 2193752106999795773
+      Slime 1: 285341299
+      Slime 2: -1198598843
+      Slime 3: 1495846384
+      Slime 4: -7624475456784673193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
